@@ -21,4 +21,4 @@ uvicorn main:app --reload
 cd frontend
 npm install
 npm start
-✅ Visit: http://localhost:3000 (or 3001/3002)
+✅ Visit: http://localhost:3003
