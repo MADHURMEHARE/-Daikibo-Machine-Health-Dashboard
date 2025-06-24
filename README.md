@@ -5,3 +5,20 @@ Frontend	React.js, Recharts, Axios
 Backend	FastAPI (Python), WebSocket API
 Database	SQLite via SQLAlchemy ORM
 Deployment	Localhost, production-ready APIs
+
+cd backend
+pip install -r requirements.txt
+
+# Run server
+uvicorn main:app --reload
+
+ Visit: http://localhost:8000
+
+✅ WebSocket: ws://localhost:8000/ws
+
+✅ API: /history?machine_id=M7
+
+cd frontend
+npm install
+npm start
+✅ Visit: http://localhost:3000 (or 3001/3002)
